@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="2.41.0" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.21.0" />
+    <PackageReference Include="Selenium.Support" Version="3.14.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.14.0" />
+  </ItemGroup>
+
+</Project>
